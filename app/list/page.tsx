@@ -1,6 +1,5 @@
 import { connectDB } from "@/util/database"
 import Link from "next/link";
-import DetailLink from "./DetailLink";
 
 export default async function List() {
 
@@ -14,7 +13,6 @@ export default async function List() {
                 // return, 중괄호 생략 가능
                 result.map((post, i) => {
                     return (
-
                         <div className="list-item" key={i}>
                             <Link href={'/detail/' + result[i]._id}>
                                 <h4>{result[i].title}</h4>

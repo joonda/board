@@ -37,3 +37,21 @@ body {
     color: grey;
     margin: 5px 0px;
 }
+
+.p-20 {
+    padding: 20px;
+}
+
+input {
+    box-sizing: border-box;
+    padding: 10px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 5px 10px;
+    background: lightgray;
+    border: none;
+    border-radius: 5px;
+}
