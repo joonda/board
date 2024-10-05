@@ -18,6 +18,7 @@ export default async function List() {
                                 <h4>{result[i].title}</h4>
                             </Link>
                             <p>{result[i].content}</p>
+                            <Link href={'/edit/' + result[i]._id}>✏️</Link>
                         </div>
                     )
                 })
