@@ -2,6 +2,18 @@ body {
     margin: 0px;
 }
 
+.navbar {
+    background: #212121;
+    padding: 20px;
+}
+
+.navbar a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(249, 250, 255);
+    font-weight: 600;
+}
+
 .list-bg {
     background: rgb(249, 250, 255);
     padding: 10px;
