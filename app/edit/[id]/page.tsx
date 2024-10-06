@@ -13,8 +13,6 @@ export default async function Edit(props: Editprops) {
     let result = await db.collection('post').findOne({_id : new
         ObjectId(props.params.id)})
 
-    console.log(result);
-
     return (
         <div className="p-20">
             <h4>Editing</h4>
